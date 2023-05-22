@@ -162,6 +162,7 @@ font-size: 1.2rem;
 display: flex;
 flex-direction: column;
 align-items: center; 
+width: 100%;
 }
 
 .comprar {
@@ -169,6 +170,7 @@ font-size: 1.25rem;
 text-align: center;
 background-color: beige;
 color: black;
+width: 100%;
 }
 
 .boton-comprar {
@@ -188,6 +190,11 @@ font-size: 1.5rem;
 .precios {
 font-size: 1.25rem;
 color:rgb(100, 28, 52);
+}
+
+.imagen-producto {
+object-fit: cover;
+width: 100%;
 }
 
 /* Discografía */
@@ -258,7 +265,7 @@ font-style: italic;
 display: grid;
 align-items: center;
 justify-items: center;
-row-gap: 0.5rem;
+gap: 2rem;
 }
 
 /* Estilos de footer */
@@ -357,15 +364,13 @@ font-size: 1.5rem;
 font-size: 1.7rem;
 }
 
-.comprar {
-width: 100%;
-}
-
 /* Ecommerce */
 
 .contenedor-ecommerce {
-column-gap: 2rem;
-margin: 1rem;    
+grid-template-columns: auto;
+grid-template-rows: auto;
+margin: 1rem;
+gap: 1rem;    
 grid-template-areas:
 "header header header"
 "producto-1 producto-2 producto-3"
