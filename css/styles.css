@@ -1,0 +1,432 @@
+/* RESET */
+
+*{
+margin:0 ;
+padding:0;
+box-sizing: border-box;
+}
+
+/* Estilos generales */
+
+body {
+background-color: rgb(110, 102, 102);
+font-family: 'Instrument Serif', serif;
+font-size: 1rem;
+}
+
+/* Estilos para pantallas de celulares */
+
+/* Estilos de header */
+
+header {
+display: flex;
+justify-content: space-around;
+padding: 0.5rem;
+align-items: center;
+}
+
+/* Estilos de main */
+
+/* Index */
+
+.contenedor {
+display: grid;
+grid-template-columns: 1fr;
+row-gap: 1rem;
+margin: 0.5rem;
+align-items: center; /* eje vertical */
+justify-items: center; /* eje horizontal */
+text-align: center;
+height: 100%;
+}
+
+.contenedor div img {
+width: 80%;
+height: 100%;
+}
+
+iframe {
+width: 100%;
+height: 100%;
+}
+
+main h1 {
+color: rgb(100, 28, 52);
+font-size: 1.8rem;
+}
+
+main h2 {
+font-size: 1.2rem;
+color:black;
+}
+
+main h3 {
+height: 100%;
+font-size: 1.5rem;
+color:rgb(50, 50, 50);
+font-style: oblique;
+}
+
+main p {
+font-size: 0.9rem;
+color: rgb(178, 30, 13);
+}
+
+/* Historias */
+
+.contenedor-historias {
+display: grid;
+row-gap: 1rem;
+align-items: center; 
+justify-items: center; 
+}
+
+main ul {
+display: grid;
+list-style: none;
+align-items: center; 
+justify-items: center;
+margin: 0.5rem;
+text-align: center;
+}
+
+.caja-1 {
+display: grid;
+align-items: center; 
+justify-items: center;
+margin: 0.5rem;
+}
+
+.caja-2 {
+display: grid;
+align-items: center; 
+justify-items: center;
+margin: 0.5rem;
+}
+
+.caja-3 {
+display: grid;
+align-items: center; 
+justify-items: center;
+margin: 0.5rem;
+}
+
+.caja-4 {
+display: grid;
+align-items: center; 
+justify-items: center;
+margin: 0.5rem;
+}
+
+.caja-1 h3 {
+font-size: 1,5rem;
+color: rgb(100, 28, 52);
+}
+
+.caja-2 h3 {
+font-size: 1,5rem;
+color: rgb(100, 28, 52);
+}
+
+.caja-3 h3 {
+font-size: 1,5rem;
+color: rgb(100, 28, 52);
+}
+
+.caja-4 h3 {
+font-size: 1,5rem;
+color: rgb(100, 28, 52);
+}
+
+/* CLASS HTML HISTORIAS */
+
+.storytelling {
+height: 100%;
+font-size: 1rem;
+text-align: left;
+color:whitesmoke;
+font-style: italic;
+}
+
+.descripciones {
+color: rgb(223, 223, 220);
+}
+
+.nombre-producto {
+font-size: 1.2rem;
+}
+
+/* CLASS HTML COMPRAR */
+
+.contenedor-comprar {
+display: flex;
+flex-direction: column;
+align-items: center; 
+}
+
+.comprar {
+font-size: 1.25rem;
+text-align: center;
+background-color: beige;
+color: black;
+}
+
+.boton-comprar {
+list-style: none;
+text-decoration: none;
+font-size: 1.2rem;
+color: black;
+background-color: grey;
+padding: 0.5rem;
+border-radius: 3rem;
+}
+
+.boton-comprar:hover {
+font-size: 1.5rem;
+}
+
+.precios {
+font-size: 1.25rem;
+color:rgb(100, 28, 52);
+}
+
+/* Discografía */
+
+.contenedor-discografia {
+display: grid;
+align-items: center; 
+justify-items: center; 
+row-gap: 0.2rem;
+}
+
+main ul {
+row-gap: 1rem;
+}
+
+main ul li a {
+color: black;
+list-style: none;
+text-decoration: none;
+font-size: 1.2rem;
+}
+
+/* CLASS HTML DISCOGRAFÍA */
+
+.presentacion-discografia {
+font-size: 1rem;
+color: rgba(245, 245, 220, 0.744);
+text-align: center;
+}
+
+.link-a-historias {
+font-size: 1.2rem;
+}
+
+/* Contacto */
+
+.contenedor-contacto {
+display: flex;
+flex-direction: column;
+align-items: start; 
+margin: 0.5rem;
+height: 100vh;
+}
+
+/* Streams */
+
+.contenedor-streams {
+display: flex;
+flex-direction: column;
+align-items: center; 
+margin: 0.5rem;
+text-align: center;
+gap: 1rem
+}
+
+/* CLASS HTML STREAMS */
+
+.presentacion {
+font-size: 0.9rem;
+color: azure;
+font-style: italic;
+}
+
+
+/* E- Commerce */
+
+.contenedor-ecommerce {
+display: grid;
+align-items: center;
+justify-items: center;
+row-gap: 0.5rem;
+}
+
+/* Estilos de footer */
+
+footer {
+color:rgb(26, 26, 26);
+background-color: rgb(196, 196, 196);
+text-align:center;
+}
+
+/* Estilos para desktop */
+
+@media screen and (min-width:1024px){
+
+/* Banner y barra de navegación */
+
+header {
+display:grid;
+justify-items: center;
+background-color: rgb(110, 102, 102);
+position: sticky;
+top:0;
+}
+
+/* Index */
+
+.contenedor div img {
+width: 100%;
+height: 100%;
+}
+
+main p {
+font-size: 1.5rem;
+}
+
+/* Historias */ 
+
+header nav ul li {
+border-right:0.0625rem solid rgb(100, 28, 52);
+border-bottom:0.0625rem solid rgb(100, 28, 52);
+margin: 1rem;
+padding:0.125rem;
+background-color:rgba(245, 245, 245, 0.719);
+}
+
+.container-fluid {
+grid-area:header;
+}
+
+.titulo {
+grid-area: titulo;
+}
+
+.caja-1 {
+grid-area: caja-1;
+}
+
+.caja-2 {
+grid-area: caja-2;
+}
+
+.caja-3 {
+grid-area: caja-3;
+}
+
+.caja-4 {
+grid-area: caja-4;
+}
+
+footer {
+grid-area: footer;
+}
+
+.contenedor-historias {
+grid-template-columns: auto;
+grid-template-rows: auto;
+align-items: start;
+text-align: center;
+column-gap: 2rem;
+margin: 1rem;
+grid-template-areas:
+"header header header header"
+"titulo titulo titulo titulo"
+"caja-1 caja-3 caja-2 caja-4"
+"footer footer footer footer"
+;
+}
+
+/* Comprar */
+
+.descripciones {
+font-size: 1.5rem;
+}
+
+.nombre-producto {
+font-size: 1.7rem;
+}
+
+.comprar {
+width: 100%;
+}
+
+/* Ecommerce */
+
+.contenedor-ecommerce {
+column-gap: 2rem;
+margin: 1rem;    
+grid-template-areas:
+"header header header"
+"producto-1 producto-2 producto-3"
+"producto-4 producto-5 producto-6"
+"footer footer footer"
+}
+
+header {
+grid-area:header;
+}
+
+footer {
+grid-area: footer;
+}
+
+.producto-1 {
+grid-area:producto-1
+}
+
+.producto-2 {
+grid-area:producto-2
+}
+
+.producto-3 {
+grid-area:producto-3
+}
+
+.producto-4 {
+grid-area:producto-4
+}
+
+.producto-5 {
+grid-area:producto-5
+}
+
+.producto-6 {
+grid-area:producto-6
+}
+
+/* Discografía */
+
+.presentacion-discografia {
+font-size: 1.5rem;
+}
+
+/* Streams */
+
+.presentacion {
+font-size: 1.5rem;
+}
+
+iframe {
+height: 60vh;
+width: 60vw;
+}
+
+/* Contacto */
+
+.contenedor-contacto {
+height: 55vh;
+}
+
+
+} 
