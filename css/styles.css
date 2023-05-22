@@ -311,6 +311,21 @@ padding:0.125rem;
 background-color:rgba(245, 245, 245, 0.719);
 }
 
+.contenedor-historias {
+grid-template-columns: auto;
+grid-template-rows: auto;
+align-items: start;
+text-align: center;
+column-gap: 2rem;
+margin: 1rem;
+grid-template-areas:
+"header header header header"
+"titulo titulo titulo titulo"
+"caja-1 caja-3 caja-2 caja-4"
+"footer footer footer footer"
+;
+}
+
 .container-fluid {
 grid-area:header;
 }
@@ -337,21 +352,6 @@ grid-area: caja-4;
 
 footer {
 grid-area: footer;
-}
-
-.contenedor-historias {
-grid-template-columns: auto;
-grid-template-rows: auto;
-align-items: start;
-text-align: center;
-column-gap: 2rem;
-margin: 1rem;
-grid-template-areas:
-"header header header header"
-"titulo titulo titulo titulo"
-"caja-1 caja-3 caja-2 caja-4"
-"footer footer footer footer"
-;
 }
 
 /* Comprar */
