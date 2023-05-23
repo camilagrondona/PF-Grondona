@@ -197,7 +197,6 @@ display: flex;
 flex-direction: column;
 align-items: start; 
 margin: 0.5rem;
-height: 55vh;
 }
 
 /* Streams */
