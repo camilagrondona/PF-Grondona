@@ -29,7 +29,7 @@ align-items: center;
 
 /* Index */
 
-.contenedor {
+.contenedor-index {
 display: grid;
 grid-template-columns: 1fr;
 row-gap: 1rem;
@@ -40,36 +40,37 @@ text-align: center;
 height: 100%;
 }
 
-.contenedor div img {
+.contenedor-index div img {
 width: 80%;
 height: 100%;
 }
 
-iframe {
+.contenedor-index iframe {
 width: 100%;
 height: 100%;
 }
 
-main h1 {
+.contenedor-index h1 {
 color: rgb(100, 28, 52);
 font-size: 1.8rem;
 }
 
-main h2 {
+.contenedor-index h2 {
 font-size: 1.2rem;
 color:black;
 }
 
-main h3 {
+.contenedor-index h3 {
 height: 100%;
 font-size: 1.5rem;
 color:rgb(50, 50, 50);
 font-style: oblique;
 }
 
-main p {
-font-size: 0.9rem;
-color: rgb(178, 30, 13);
+.contenedor-index p {
+font-size: 1rem;
+color: rgb(100, 28, 52);
+font-weight: bold;
 }
 
 /* Historias */
@@ -90,57 +91,19 @@ margin: 0.5rem;
 text-align: center;
 }
 
-.caja-1 {
+.contenedor-historias .caja-1, .caja-2, .caja-3, .caja-4 {
 display: grid;
 align-items: center; 
 justify-items: center;
 margin: 0.5rem;
 }
 
-.caja-2 {
-display: grid;
-align-items: center; 
-justify-items: center;
-margin: 0.5rem;
-}
-
-.caja-3 {
-display: grid;
-align-items: center; 
-justify-items: center;
-margin: 0.5rem;
-}
-
-.caja-4 {
-display: grid;
-align-items: center; 
-justify-items: center;
-margin: 0.5rem;
-}
-
-.caja-1 h3 {
+.contenedor-historias .caja-1 h3, .caja-2 h3, .caja-3 h3, .caja-4 h3 {
 font-size: 1,5rem;
 color: rgb(100, 28, 52);
 }
 
-.caja-2 h3 {
-font-size: 1,5rem;
-color: rgb(100, 28, 52);
-}
-
-.caja-3 h3 {
-font-size: 1,5rem;
-color: rgb(100, 28, 52);
-}
-
-.caja-4 h3 {
-font-size: 1,5rem;
-color: rgb(100, 28, 52);
-}
-
-/* CLASS HTML HISTORIAS */
-
-.storytelling {
+.contenedor-historias .storytelling {
 height: 100%;
 font-size: 1rem;
 text-align: left;
@@ -148,15 +111,7 @@ color:whitesmoke;
 font-style: italic;
 }
 
-.descripciones {
-color: rgb(223, 223, 220);
-}
-
-.nombre-producto {
-font-size: 1.2rem;
-}
-
-/* CLASS HTML COMPRAR */
+/* Comprar */
 
 .contenedor-comprar {
 display: flex;
@@ -165,7 +120,7 @@ align-items: center;
 width: 100%;
 }
 
-.comprar {
+.contenedor-comprar .comprar {
 font-size: 1.25rem;
 text-align: center;
 background-color: beige;
@@ -173,7 +128,7 @@ color: black;
 width: 100%;
 }
 
-.boton-comprar {
+.contenedor-comprar .boton-comprar {
 list-style: none;
 text-decoration: none;
 font-size: 1.2rem;
@@ -183,16 +138,24 @@ padding: 0.5rem;
 border-radius: 3rem;
 }
 
-.boton-comprar:hover {
+.contenedor-comprar .descripciones {
+color: rgb(223, 223, 220);
+}
+
+.contenedor-comprar .nombre-producto {
+font-size: 2rem;
+}
+
+.contenedor-comprar .boton-comprar:hover {
 font-size: 1.5rem;
 }
 
-.precios {
+.contenedor-comprar .precios {
 font-size: 1.25rem;
 color:rgb(100, 28, 52);
 }
 
-.imagen-producto {
+.contenedor-comprar .imagen-producto {
 object-fit: cover;
 width: 100%;
 }
@@ -206,26 +169,24 @@ justify-items: center;
 row-gap: 0.2rem;
 }
 
-main ul {
+.contenedor-discografia ul {
 row-gap: 1rem;
 }
 
-main ul li a {
+.contenedor-discografia ul li a {
 color: black;
 list-style: none;
 text-decoration: none;
 font-size: 1.2rem;
 }
 
-/* CLASS HTML DISCOGRAFÍA */
-
-.presentacion-discografia {
-font-size: 1rem;
+.contenedor-discografia .presentacion-discografia {
+font-size: 1.5rem;
 color: rgba(245, 245, 220, 0.744);
 text-align: center;
 }
 
-.link-a-historias {
+.contenedor-discografia .link-a-historias {
 font-size: 1.2rem;
 }
 
@@ -236,7 +197,7 @@ display: flex;
 flex-direction: column;
 align-items: start; 
 margin: 0.5rem;
-height: 100vh;
+height: 55vh;
 }
 
 /* Streams */
@@ -250,14 +211,11 @@ text-align: center;
 gap: 1rem
 }
 
-/* CLASS HTML STREAMS */
-
-.presentacion {
+.contenedor-streams .presentacion {
 font-size: 0.9rem;
 color: azure;
 font-style: italic;
 }
-
 
 /* E- Commerce */
 
@@ -300,27 +258,31 @@ background-color:rgba(245, 245, 245, 0.719);
 
 /* Index */
 
-.contenedor div img {
+.contenedor-index div img {
 width: 100%;
 height: 100%;
 object-fit: cover;
 }
 
-main p {
+.contenedor-index p {
 font-size: 1.5rem;
+font-weight: normal;
 }
 
+.contenedor-index iframe {
+height: 50vh;
+width: 50vw;
+}
 
 /* Historias */ 
 
-.contenedor-historias {
-grid-template-columns: repeat (4,1fr);
-grid-template-rows: auto;
+.grid-container {
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(3, 1fr);
 align-items: start;
 grid-template-areas:
 "header header header header"
-"titulo titulo titulo titulo"
-"caja-1 caja-3 caja-2 caja-4"
+"main main main main"
 "footer footer footer footer"
 ;
 }
@@ -329,24 +291,8 @@ header {
 grid-area:header;
 }
 
-.titulo {
-grid-area: titulo;
-}
-
-.caja-1 {
-grid-area: caja-1;
-}
-
-.caja-2 {
-grid-area: caja-2;
-}
-
-.caja-3 {
-grid-area: caja-3;
-}
-
-.caja-4 {
-grid-area: caja-4;
+.contenedor-historias {
+grid-area: main;
 }
 
 footer {
@@ -355,11 +301,11 @@ grid-area: footer;
 
 /* Comprar */
 
-.descripciones {
+.contenedor-comprar .descripciones {
 font-size: 1.5rem;
 }
 
-.nombre-producto {
+.contenedor-comprar .nombre-producto {
 font-size: 1.7rem;
 }
 
@@ -417,11 +363,11 @@ font-size: 1.5rem;
 
 /* Streams */
 
-.presentacion {
+.contenedor-streams .presentacion {
 font-size: 1.5rem;
 }
 
-iframe {
+.contenedor-streams iframe {
 height: 60vh;
 width: 60vw;
 }
