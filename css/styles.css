@@ -50,24 +50,24 @@ width: 100%;
 height: 100%;
 }
 
-main h1 {
+.contenedor-index h1 {
 color: rgb(100, 28, 52);
 font-size: 1.8rem;
 }
 
-main h2 {
+.contenedor-index h2 {
 font-size: 1.2rem;
 color:black;
 }
 
-main h3 {
+.contenedor-index h3 {
 height: 100%;
 font-size: 1.5rem;
 color:rgb(50, 50, 50);
 font-style: oblique;
 }
 
-main p {
+.contenedor-index p {
 font-size: 1rem;
 color: rgb(100, 28, 52);
 font-weight: bold;
@@ -98,7 +98,12 @@ justify-items: center;
 margin: 0.5rem;
 }
 
-.contenedor-historias .caja-1 h3, .caja-2 h3, .caja-3 h3, .caja-4 h3 {
+.contenedor-historias .caja-1 h1, .caja-2 h1, .caja-3 h1, .caja-4 h1 {
+font-size: 2rem;
+color: black;
+}
+
+.contenedor-historias .caja-1 h2, .caja-2 h2, .caja-3 h2, .caja-4 h2 {
 font-size: 1,5rem;
 color: rgb(100, 28, 52);
 }
@@ -118,6 +123,11 @@ display: flex;
 flex-direction: column;
 align-items: center; 
 width: 100%;
+}
+
+.contenedor-comprar h1 {
+color: rgb(100, 28, 52);
+font-size: 1.8rem;
 }
 
 .contenedor-comprar .comprar {
@@ -151,13 +161,13 @@ font-size: 1.5rem;
 }
 
 .contenedor-comprar .precios {
-font-size: 1.25rem;
+font-size: 1.5rem;
 color:rgb(100, 28, 52);
 }
 
 .contenedor-comprar .imagen-producto {
 object-fit: cover;
-width: 100%;
+width: 50%;
 }
 
 /* Discografía */
@@ -188,6 +198,23 @@ text-align: center;
 
 .contenedor-discografia .link-a-historias {
 font-size: 1.2rem;
+}
+
+.contenedor-discografia h1 {
+color: rgb(100, 28, 52);
+font-size: 1.8rem;
+}
+
+.contenedor-discografia h2 {
+font-size: 1.2rem;
+color:black;
+}
+
+.contenedor-discografia h3 {
+height: 100%;
+font-size: 1.5rem;
+color:rgb(50, 50, 50);
+font-style: oblique;
 }
 
 /* Contacto */
@@ -299,8 +326,43 @@ footer {
 grid-area: footer;
 }
 
+.titulo {
+    grid-row:span 1;
+}
+
+.contenedor-historias .caja-1 {
+grid-column: span 4;
+grid-row: span 4;
+margin: 2rem;
+align-self: center;
+}
+
+.contenedor-historias .caja-2 {
+grid-column: span 1;
+grid-row: span 2;
+align-self: start;
+margin: 1rem;
+}
+
+.contenedor-historias .caja-3 { 
+grid-column: span 1;
+grid-row: span 3;
+align-self: start;
+margin: 1rem;
+}
+
+.contenedor-historias .caja-4 {
+grid-column: span 1;
+grid-row: span 2;
+align-self: start;
+margin: 1rem;
+}
+
 /* Comprar */
 
+.contenedor-comprar .comprar {
+font-size: 1rem;
+}
 .contenedor-comprar .descripciones {
 font-size: 1.5rem;
 }
@@ -360,6 +422,7 @@ grid-area:producto-6
 .presentacion-discografia {
 font-size: 1.5rem;
 }
+
 
 /* Streams */
 
