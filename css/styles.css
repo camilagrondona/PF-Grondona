@@ -153,7 +153,7 @@ color: rgb(223, 223, 220);
 }
 
 .contenedor-comprar .nombre-producto {
-font-size: 2rem;
+font-size: 1rem;
 }
 
 .contenedor-comprar .boton-comprar:hover {
@@ -327,7 +327,7 @@ grid-area: footer;
 }
 
 .titulo {
-    grid-row:span 1;
+grid-row:span 1;
 }
 
 .contenedor-historias .caja-1 {
@@ -422,7 +422,6 @@ grid-area:producto-6
 .presentacion-discografia {
 font-size: 1.5rem;
 }
-
 
 /* Streams */
 
