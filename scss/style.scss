@@ -1,0 +1,40 @@
+/* RESET */
+
+*{
+margin:0 ;
+padding:0;
+box-sizing: border-box;
+}
+
+// Import
+
+@import "../scss/utilidades/variables";
+
+// Import html 
+
+@import "../scss/html/comprar";
+@import "../scss/html/contacto";
+@import "../scss/html/discografia";
+@import "../scss/html/ecommerce";
+@import "../scss/html/historias";
+@import "../scss/html/index";
+@import "../scss/html/streams";
+
+
+/* Estilos generales */
+
+body {
+background-color: $color-principal;
+font-family: 'Instrument Serif', serif;
+font-size: 1rem;
+}
+
+/* Estilos de header para pantallas de celulares */
+
+header {
+display: flex;
+justify-content: space-around;
+padding: 0.5rem;
+align-items: center;
+}
+
