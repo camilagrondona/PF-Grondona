@@ -1,0 +1,121 @@
+// Import - archivos secundarios SASS
+
+@import "../utilidades/variables";
+@import "../utilidades/extend";
+
+/* Pantallas de celulares */
+
+.contenedor-historias {
+display: grid;
+row-gap: 1rem;
+align-items: center; 
+justify-items: center; 
+.caja-1 {
+@extend %cajas;
+h1 {
+@extend %h1-cajas;
+}
+h2{
+@extend %h2-cajas;
+}
+}
+.caja-2 {
+@extend %cajas;
+h1 {
+@extend %h1-cajas;
+}
+h2{
+@extend %h2-cajas;
+}
+}
+.caja-3 {
+@extend %cajas;
+h1 {
+@extend %h1-cajas;
+}
+h2{
+@extend %h2-cajas;
+}
+}
+.caja-4 {
+@extend %cajas;
+h1 {
+@extend %h1-cajas;
+}
+h2{
+@extend %h2-cajas;
+}
+}
+ul {
+display: grid;
+list-style: none;
+align-items: center; 
+justify-items: center;
+margin: 0.5rem;
+text-align: center;    
+}
+.storytelling {
+height: $med-principal;
+font-size: 1rem;
+text-align: left;
+color:whitesmoke;
+font-style: italic;
+}
+}
+
+/* Desktop */
+
+@media screen and (min-width:1024px) {
+.grid-container {
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(3, 1fr);
+align-items: start;
+grid-template-areas:
+"header header header header"
+"main main main main"
+"footer footer footer footer"
+;
+}
+header {
+grid-area:header;
+}
+.contenedor-historias {
+grid-area: main;
+}
+
+footer {
+grid-area: footer;
+}
+
+.titulo {
+grid-row:span 1;
+}
+
+.contenedor-historias {
+.caja-1 {
+grid-column: span 4;
+grid-row: span 4;
+margin: 2rem;
+align-self: center;
+}
+.caja-2 {
+grid-column: span 1;
+grid-row: span 2;
+align-self: start;
+margin: 1rem;
+}
+.caja-3 { 
+grid-column: span 1;
+grid-row: span 3;
+align-self: start;
+margin: 1rem;
+}
+
+.caja-4 {
+grid-column: span 1;
+grid-row: span 2;
+align-self: start;
+margin: 1rem;
+} 
+}
+}

@@ -1,4 +1,4 @@
-// Import
+// Import - archivos secundarios SASS
 
 @import "../utilidades/variables";
 
@@ -13,14 +13,58 @@ align-items: center;
 justify-items: center; 
 text-align: center;
 height: $med-principal;
-    div .img-uno {
-        width: 80%;
-        height: $med-principal;
-    iframe {
-        width: $med-principal;
-        height: $med-principal;
-    }
-    }
+h1 {
+color: $color-secundario;
+font-size: 1.8rem;
+}
+h2 {
+font-size: 1.2rem;
+color:black;
+}
+h3 {
+height: $med-principal;
+font-size: 1.5rem;
+color:rgb(50, 50, 50);
+font-style: oblique;
+}
+p {
+font-size: 1rem;
+color: $color-secundario;
+font-weight: bold;
+}
+div .img-uno {
+width: 80%;
+height: $med-principal;
+}
+div iframe {
+width: $med-principal;
+height: $med-principal;
+}
 }
 
+/* Tablet */
+
+/* Desktop */
+
+@media screen and (min-width:1024px){
+
+.contenedor-index {
+div img {
+width: $med-principal;
+height: $med-principal;
+object-fit: cover;
+}
+
+p {
+font-size: 1.5rem;
+font-weight: normal;
+}
+
+iframe {
+height: 50vh;
+width: 50vw;
+}
+
+}
+}
 
