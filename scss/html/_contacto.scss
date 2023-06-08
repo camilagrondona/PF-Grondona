@@ -1,0 +1,22 @@
+/* HTML CONTACTO */
+/*Pantalla de celular*/
+
+.contenedor-contacto {
+display: flex;
+flex-direction: column;
+align-items: start; 
+margin: 0.5rem;
+height: 100vh;
+}
+
+/* HTML CONTACTO */
+/*Tablet*/
+
+/* HTML CONTACTO */
+/*Desktop*/
+
+@media screen and (min-width:1024px) {
+.contenedor-contacto {
+height: 55vh;
+}
+}

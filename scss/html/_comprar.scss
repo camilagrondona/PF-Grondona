@@ -1,0 +1,81 @@
+// Import - archivos secundarios SASS
+
+@import "../utilidades/variables";
+
+/* HTML COMPRAR */
+/*Pantalla de celular*/
+
+.contenedor-comprar {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: $med-principal;
+
+h1 {
+color: $color-secundario;
+font-size: 1.8rem;
+}
+
+.comprar {
+font-size: 1.25rem;
+text-align: center;
+background-color: beige;
+color: black;
+width: $med-principal;
+}
+
+.boton-comprar {
+list-style: none;
+text-decoration: none;
+font-size: 1.2rem;
+color: black;
+background-color: grey;
+padding: 0.5rem;
+border-radius: 3rem;
+
+&:hover {
+font-size: 1.5rem;
+}
+
+}
+.descripciones {
+color: rgb(223, 223, 220);
+}
+
+.nombre-producto {
+font-size: 1rem;
+}
+
+.precios {
+font-size: 1.5rem;
+color: $color-secundario;
+}
+
+.imagen-producto {
+object-fit: cover;
+width: 50%;
+}
+}
+
+/* HTML COMPRAR */
+/*Tablet*/
+
+/* HTML COMPRAR */
+/*Desktop*/
+
+@media screen and (min-width:1024px) {
+
+.contenedor-comprar {
+.comprar {
+font-size: 1rem;
+}
+
+.descripciones {
+font-size: 1.5rem;
+}
+
+.nombre-producto {
+font-size: 1.7rem;
+}
+}
+}

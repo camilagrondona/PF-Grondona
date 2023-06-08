@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* RESET */
 * {
   margin: 0;
@@ -5,6 +6,181 @@
   box-sizing: border-box;
 }
 
+/* HTML COMPRAR */
+/*Pantalla de celular*/
+.contenedor-comprar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.contenedor-comprar h1 {
+  color: rgb(100, 28, 52);
+  font-size: 1.8rem;
+}
+.contenedor-comprar .comprar {
+  font-size: 1.25rem;
+  text-align: center;
+  background-color: beige;
+  color: black;
+  width: 100%;
+}
+.contenedor-comprar .boton-comprar {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  background-color: grey;
+  padding: 0.5rem;
+  border-radius: 3rem;
+}
+.contenedor-comprar .boton-comprar:hover {
+  font-size: 1.5rem;
+}
+.contenedor-comprar .descripciones {
+  color: rgb(223, 223, 220);
+}
+.contenedor-comprar .nombre-producto {
+  font-size: 1rem;
+}
+.contenedor-comprar .precios {
+  font-size: 1.5rem;
+  color: rgb(100, 28, 52);
+}
+.contenedor-comprar .imagen-producto {
+  object-fit: cover;
+  width: 50%;
+}
+
+/* HTML COMPRAR */
+/*Tablet*/
+/* HTML COMPRAR */
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .contenedor-comprar .comprar {
+    font-size: 1rem;
+  }
+  .contenedor-comprar .descripciones {
+    font-size: 1.5rem;
+  }
+  .contenedor-comprar .nombre-producto {
+    font-size: 1.7rem;
+  }
+}
+/* HTML CONTACTO */
+/*Pantalla de celular*/
+.contenedor-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0.5rem;
+  height: 100vh;
+}
+
+/* HTML CONTACTO */
+/*Tablet*/
+/* HTML CONTACTO */
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .contenedor-contacto {
+    height: 55vh;
+  }
+}
+/*HTML discografía */
+/*Pantalla de celular*/
+.contenedor-discografia {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  row-gap: 0.2rem;
+}
+.contenedor-discografia ul {
+  row-gap: 1rem;
+}
+.contenedor-discografia ul li a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.contenedor-discografia .presentacion-discografia {
+  font-size: 1.5rem;
+  color: rgba(245, 245, 220, 0.744);
+  text-align: center;
+}
+.contenedor-discografia .link-a-historias {
+  font-size: 1.2rem;
+}
+.contenedor-discografia h1 {
+  color: rgb(100, 28, 52);
+  font-size: 1.8rem;
+}
+.contenedor-discografia h2 {
+  font-size: 1.2rem;
+  color: black;
+}
+.contenedor-discografia h3 {
+  height: 100%;
+  font-size: 1.5rem;
+  color: rgb(50, 50, 50);
+  font-style: oblique;
+}
+
+/*HTML discografía */
+/* Tablet*/
+/*HTML discografía */
+/* Desktop*/
+@media screen and (min-width: 1024px) {
+  .presentacion-discografia {
+    font-size: 1.5rem;
+  }
+}
+/* HTML E-commerce */
+/*Pantalla de celular*/
+.contenedor-ecommerce {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 2rem;
+}
+
+/* HTML E-commerce */
+/*Tablet*/
+/* HTML E-commerce */
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .contenedor-ecommerce {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin: 1rem;
+    gap: 1rem;
+    grid-template-areas: "header header header" "producto-1 producto-2 producto-3" "producto-4 producto-5 producto-6" "footer footer footer";
+  }
+  header {
+    grid-area: header;
+  }
+  footer {
+    grid-area: footer;
+  }
+  .producto-1 {
+    grid-area: producto-1;
+  }
+  .producto-2 {
+    grid-area: producto-2;
+  }
+  .producto-3 {
+    grid-area: producto-3;
+  }
+  .producto-4 {
+    grid-area: producto-4;
+  }
+  .producto-5 {
+    grid-area: producto-5;
+  }
+  .producto-6 {
+    grid-area: producto-6;
+  }
+}
 .contenedor-historias .caja-4, .contenedor-historias .caja-3, .contenedor-historias .caja-2, .contenedor-historias .caja-1 {
   display: grid;
   align-items: center;
@@ -22,7 +198,8 @@
   color: rgb(100, 28, 52);
 }
 
-/* Pantallas de celulares */
+/* HTML HISTORIAS */
+/*Pantalla de celular*/
 .contenedor-historias {
   display: grid;
   row-gap: 1rem;
@@ -45,6 +222,9 @@
   font-style: italic;
 }
 
+/* HTML HISTORIAS */
+/* Tablet */
+/* HTML HISTORIAS */
 /* Desktop */
 @media screen and (min-width: 1024px) {
   .grid-container {
@@ -90,6 +270,7 @@
     margin: 1rem;
   }
 }
+/* HTML INDEX */
 /* Pantallas de celulares */
 .contenedor-index {
   display: grid;
@@ -120,7 +301,7 @@
   color: rgb(100, 28, 52);
   font-weight: bold;
 }
-.contenedor-index div .img-uno {
+.contenedor-index div img {
   width: 80%;
   height: 100%;
 }
@@ -129,7 +310,9 @@
   height: 100%;
 }
 
+/* HTML INDEX */
 /* Tablet */
+/*HTML INDEX*/
 /* Desktop */
 @media screen and (min-width: 1024px) {
   .contenedor-index div img {
@@ -146,6 +329,35 @@
     width: 50vw;
   }
 }
+/* HTML STREAMS */
+/* Pantalla de celular */
+.contenedor-streams {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  text-align: center;
+  gap: 1rem;
+}
+.contenedor-streams .presentacion {
+  font-size: 0.9rem;
+  color: azure;
+  font-style: italic;
+}
+
+/* HTML STREAMS */
+/* Tablets */
+/* HTML STREAMS */
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .contenedor-streams .presentacion {
+    font-size: 1.5rem;
+  }
+  .contenedor-streams iframe {
+    height: 60vh;
+    width: 60vw;
+  }
+}
 /* Estilos generales */
 body {
   background-color: rgb(110, 102, 102);
@@ -153,12 +365,36 @@ body {
   font-size: 1rem;
 }
 
-/* Estilos de header para pantallas de celulares */
+/* Estilo de header para pantallas de celulares */
 header {
   display: flex;
   justify-content: space-around;
   padding: 0.5rem;
   align-items: center;
+}
+
+/* Estilo de footer */
+footer {
+  color: rgb(26, 26, 26);
+  background-color: rgb(196, 196, 196);
+  text-align: center;
+}
+
+/* Banner y barra de navegación desktop */
+header {
+  display: grid;
+  justify-items: center;
+  background-color: rgb(110, 102, 102);
+  position: sticky;
+  top: 0;
+}
+
+header nav ul li {
+  border-right: 0.0625rem solid rgb(100, 28, 52);
+  border-bottom: 0.0625rem solid rgb(100, 28, 52);
+  margin: 1rem;
+  padding: 0.125rem;
+  background-color: rgba(245, 245, 245, 0.719);
 }
 
 /*# sourceMappingURL=main.css.map */

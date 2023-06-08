@@ -2,6 +2,7 @@
 
 @import "../utilidades/variables";
 
+/* HTML INDEX */
 /* Pantallas de celulares */
 
 .contenedor-index {
@@ -32,18 +33,24 @@ font-size: 1rem;
 color: $color-secundario;
 font-weight: bold;
 }
-div .img-uno {
+
+div {
+img {
 width: 80%;
 height: $med-principal;
 }
-div iframe {
+
+iframe {
 width: $med-principal;
 height: $med-principal;
 }
 }
+}
 
+/* HTML INDEX */
 /* Tablet */
 
+/*HTML INDEX*/
 /* Desktop */
 
 @media screen and (min-width:1024px){

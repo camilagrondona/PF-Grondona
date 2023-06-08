@@ -29,7 +29,7 @@ font-family: 'Instrument Serif', serif;
 font-size: 1rem;
 }
 
-/* Estilos de header para pantallas de celulares */
+/* Estilo de header para pantallas de celulares */
 
 header {
 display: flex;
@@ -38,3 +38,29 @@ padding: 0.5rem;
 align-items: center;
 }
 
+/* Estilo de footer */
+
+footer {
+color:rgb(26, 26, 26);
+background-color: rgb(196, 196, 196);
+text-align:center;
+}
+
+
+/* Banner y barra de navegación desktop */
+
+header {
+display:grid;
+justify-items: center;
+background-color: rgb(110, 102, 102);
+position: sticky;
+top:0;
+}
+
+header nav ul li {
+border-right:0.0625rem solid rgb(100, 28, 52);
+border-bottom:0.0625rem solid rgb(100, 28, 52);
+margin: 1rem;
+padding:0.125rem;
+background-color:rgba(245, 245, 245, 0.719);
+}
