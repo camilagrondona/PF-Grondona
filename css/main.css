@@ -92,24 +92,31 @@
   display: grid;
   align-items: center;
   justify-items: center;
-  row-gap: 0.2rem;
+  row-gap: 0.5rem;
 }
 .contenedor-discografia ul {
-  row-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+.contenedor-discografia ul li {
+  list-style: none;
 }
 .contenedor-discografia ul li a {
   color: black;
-  list-style: none;
   text-decoration: none;
   font-size: 1.2rem;
 }
 .contenedor-discografia .presentacion-discografia {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: rgba(245, 245, 220, 0.744);
   text-align: center;
 }
 .contenedor-discografia .link-a-historias {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  color: rgb(100, 28, 52);
+  text-align: center;
 }
 .contenedor-discografia h1 {
   color: rgb(100, 28, 52);

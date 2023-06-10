@@ -1,3 +1,7 @@
+// Import - archivos secundarios SASS
+
+@import "../utilidades/variables";
+
 /*HTML discografía */
 /*Pantalla de celular*/
 
@@ -5,14 +9,17 @@
 display: grid;
 align-items: center;
 justify-items: center;
-row-gap: 0.2rem;
+row-gap: 0.5rem;
 
 ul {
-row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
     li {
+        list-style: none;
         a {
         color: black;
-        list-style: none;
         text-decoration: none;
         font-size: 1.2rem;
         }
@@ -20,17 +27,19 @@ row-gap: 1rem;
 }
 
 .presentacion-discografia {
-font-size: 1.5rem;
+font-size: 1.2rem;
 color: rgba(245, 245, 220, 0.744);
 text-align: center;
 }
 
 .link-a-historias {
-font-size: 1.2rem;
+font-size: 1rem;
+color: $color-secundario;
+text-align: center;
 }
 
 h1 {
-color: rgb(100, 28, 52);
+color: $color-secundario;
 font-size: 1.8rem;
 }
 
@@ -50,6 +59,10 @@ font-style: oblique;
 
 /*HTML discografía */
 /* Tablet*/
+
+@media screen and (min-width: 600px){
+    
+}
 
 /*HTML discografía */
 /* Desktop*/
