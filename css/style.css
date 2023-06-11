@@ -273,6 +273,12 @@
 
 /* HTML HISTORIAS */
 /* Tablet */
+@media screen and (min-width: 600px) {
+  .contenedor-historias .storytelling {
+    margin: 1rem;
+    text-align: center;
+  }
+}
 /* HTML HISTORIAS */
 /* Desktop */
 @media screen and (min-width: 1024px) {
