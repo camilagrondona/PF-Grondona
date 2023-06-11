@@ -1,17 +1,16 @@
 // Import - archivos secundarios SASS
 
 @import "../utilidades/variables";
+@import "../utilidades/mixin";
 
 /* HTML INDEX */
 /* Pantallas de celulares */
 
 .contenedor-index {
-    display: grid;
+    @include grid;
     grid-template-columns: 1fr;
     row-gap: 1rem;
     margin: 0.5rem;
-    align-items: center;
-    justify-items: center;
     text-align: center;
     height: $med-principal;
 
