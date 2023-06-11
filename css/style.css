@@ -28,8 +28,8 @@
 .contenedor-comprar ul li {
   display: flex;
   flex-direction: column;
-  list-style: none;
   align-items: center;
+  list-style: none;
 }
 .contenedor-comprar .boton-comprar {
   display: flex;
