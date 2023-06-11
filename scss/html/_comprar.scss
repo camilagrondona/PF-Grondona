@@ -31,9 +31,7 @@
     }
 
     .boton-comprar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex;
         list-style: none;
         text-decoration: none;
         font-size: 1.2rem;
