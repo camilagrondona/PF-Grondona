@@ -1,10 +1,12 @@
+// Import - archivos secundarios SASS
+
+@import "../utilidades/mixin";
+
 /* HTML E-commerce */
 /*Pantalla de celular*/
 
 .contenedor-ecommerce {
-    display: grid;
-    align-items: center;
-    justify-items: center;
+    @include grid;
     gap: 2rem;
     margin: 1rem;
 }
