@@ -10,6 +10,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 width: $med-principal;
+row-gap: 0.5rem;
 
 h1 {
 color: $color-secundario;
@@ -17,33 +18,43 @@ font-size: 1.8rem;
 }
 
 .comprar {
-font-size: 1.25rem;
+font-size: 1.1rem;
 text-align: center;
-background-color: beige;
 color: black;
 width: $med-principal;
 }
 
+ul {
+    li {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+    }
+}
+
 .boton-comprar {
+display: flex;
+flex-direction: column;
+align-items: center;
 list-style: none;
 text-decoration: none;
 font-size: 1.2rem;
 color: black;
-background-color: grey;
-padding: 0.5rem;
-border-radius: 3rem;
-
-&:hover {
-font-size: 1.5rem;
 }
 
-}
 .descripciones {
 color: rgb(223, 223, 220);
+font-size: 1rem;
+margin: 1rem;
+text-align: center;
 }
 
 .nombre-producto {
-font-size: 1rem;
+font-size: 1.5rem;
+color: beige;
+text-align: center;
+margin: 1rem;
 }
 
 .precios {
@@ -52,8 +63,9 @@ color: $color-secundario;
 }
 
 .imagen-producto {
-object-fit: cover;
-width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 }
 
@@ -67,15 +79,25 @@ width: 50%;
 
 .contenedor-comprar {
 .comprar {
-font-size: 1rem;
+font-size: 1.4rem;
 }
 
 .descripciones {
 font-size: 1.5rem;
+text-align: center;
 }
 
 .nombre-producto {
 font-size: 1.7rem;
+}
+
+.boton-comprar {
+padding: 0.5rem;
+border-radius: 3rem;
+&:hover {
+font-size: 1.7rem;
+}
+
 }
 }
 }

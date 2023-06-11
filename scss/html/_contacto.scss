@@ -1,3 +1,7 @@
+// Import - archivos secundarios SASS
+
+@import "../utilidades/variables";
+
 /* HTML CONTACTO */
 /*Pantalla de celular*/
 
@@ -7,6 +11,10 @@ flex-direction: column;
 align-items: start; 
 margin: 0.5rem;
 height: 100vh;
+
+h1{
+color: $color-secundario;
+}
 }
 
 /* HTML CONTACTO */
@@ -17,6 +25,6 @@ height: 100vh;
 
 @media screen and (min-width:1024px) {
 .contenedor-contacto {
-height: 55vh;
+height: 52.5vh;
 }
 }

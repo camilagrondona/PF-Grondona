@@ -49,7 +49,7 @@ color: black;
 }
 
 h3 {
-height: 100%;
+height: $med-principal;
 font-size: 1.5rem;
 color: rgb(50, 50, 50);
 font-style: oblique;
@@ -61,7 +61,7 @@ font-style: oblique;
 /* Tablet*/
 
 @media screen and (min-width: 600px){
-    
+
 }
 
 /*HTML discografía */
@@ -69,8 +69,31 @@ font-style: oblique;
 
 @media screen and (min-width:1024px) {
 
+
+.contenedor-discografia {
+
 .presentacion-discografia {
 font-size: 1.5rem;
 }
 
+h1 {
+font-size: 2rem;
+}
+
+h2 {
+font-size: 1.5rem;
+}
+
+h3 {
+font-size: 1.8rem;
+}
+
+.link-a-historias {
+font-size: 1.5rem;
+    .link {
+        font-size: 1.5rem;
+    }
+}
+
+}
 }
