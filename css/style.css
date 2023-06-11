@@ -418,6 +418,15 @@
 
 /* HTML STREAMS */
 /* Tablets */
+@media screen and (min-width: 600px) {
+  .contenedor-streams .presentacion {
+    font-size: 1.2rem;
+  }
+  .contenedor-streams iframe {
+    height: 50vh;
+    width: 60vw;
+  }
+}
 /* HTML STREAMS */
 /* Desktop */
 @media screen and (min-width: 1024px) {
