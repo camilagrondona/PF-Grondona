@@ -361,6 +361,15 @@
 
 /* HTML INDEX */
 /* Tablet */
+@media screen and (min-width: 600px) {
+  .contenedor-index div iframe {
+    width: 500px;
+    height: 315px;
+  }
+  .contenedor-index h3 {
+    font-size: 1.3rem;
+  }
+}
 /*HTML INDEX*/
 /* Desktop */
 @media screen and (min-width: 1024px) {
