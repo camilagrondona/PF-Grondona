@@ -64,6 +64,14 @@
 
 /* HTML COMPRAR */
 /*Tablet*/
+@media screen and (min-width: 600px) {
+  .contenedor-comprar .comprar {
+    margin: 0.5rem;
+  }
+  .contenedor-comprar .descripciones {
+    font-size: 1.2rem;
+  }
+}
 /* HTML COMPRAR */
 /*Desktop*/
 @media screen and (min-width: 1024px) {

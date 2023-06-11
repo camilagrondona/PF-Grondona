@@ -73,7 +73,14 @@
 /*Tablet*/
 
 @media screen and (min-width:600px) {
-    
+    .contenedor-comprar {
+        .comprar {
+            margin: 0.5rem;
+        }
+        .descripciones {
+            font-size: 1.2rem;
+        }
+    }
 }
 /* HTML COMPRAR */
 /*Desktop*/
