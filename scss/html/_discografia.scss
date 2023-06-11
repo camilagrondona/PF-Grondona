@@ -6,63 +6,63 @@
 /*Pantalla de celular*/
 
 .contenedor-discografia {
-display: grid;
-align-items: center;
-justify-items: center;
-row-gap: 0.5rem;
-
-ul {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: center;
+    justify-items: center;
     row-gap: 0.5rem;
-    li {
-        list-style: none;
-        a {
-        color: black;
-        text-decoration: none;
-        font-size: 1.2rem;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0.5rem;
+
+        li {
+            list-style: none;
+
+            a {
+                color: black;
+                text-decoration: none;
+                font-size: 1.2rem;
+            }
         }
     }
-}
 
-.presentacion-discografia {
-font-size: 1.2rem;
-color: rgba(245, 245, 220, 0.744);
-text-align: center;
-}
+    .presentacion-discografia {
+        font-size: 1.2rem;
+        color: rgba(245, 245, 220, 0.744);
+        text-align: center;
+    }
 
-.link-a-historias {
-font-size: 1rem;
-color: $color-secundario;
-text-align: center;
-}
+    .link-a-historias {
+        font-size: 1rem;
+        color: $color-secundario;
+        text-align: center;
+    }
 
-h1 {
-color: $color-secundario;
-font-size: 1.8rem;
-}
+    h1 {
+        color: $color-secundario;
+        font-size: 1.8rem;
+    }
 
-h2 {
-font-size: 1.2rem;
-color: black;
-}
+    h2 {
+        font-size: 1.2rem;
+        color: black;
+    }
 
-h3 {
-height: $med-principal;
-font-size: 1.5rem;
-color: rgb(50, 50, 50);
-font-style: oblique;
-}
+    h3 {
+        height: $med-principal;
+        font-size: 1.5rem;
+        color: rgb(50, 50, 50);
+        font-style: oblique;
+    }
 
 }
 
 /*HTML discografía */
 /* Tablet*/
 
-@media screen and (min-width: 600px){
-
-}
+@media screen and (min-width: 600px) {}
 
 /*HTML discografía */
 /* Desktop*/
@@ -70,30 +70,31 @@ font-style: oblique;
 @media screen and (min-width:1024px) {
 
 
-.contenedor-discografia {
+    .contenedor-discografia {
 
-.presentacion-discografia {
-font-size: 1.5rem;
-}
+        .presentacion-discografia {
+            font-size: 1.5rem;
+        }
 
-h1 {
-font-size: 2rem;
-}
+        h1 {
+            font-size: 2rem;
+        }
 
-h2 {
-font-size: 1.5rem;
-}
+        h2 {
+            font-size: 1.5rem;
+        }
 
-h3 {
-font-size: 1.8rem;
-}
+        h3 {
+            font-size: 1.8rem;
+        }
 
-.link-a-historias {
-font-size: 1.5rem;
-    .link {
-        font-size: 1.5rem;
+        .link-a-historias {
+            font-size: 1.5rem;
+
+            .link {
+                font-size: 1.5rem;
+            }
+        }
+
     }
-}
-
-}
 }

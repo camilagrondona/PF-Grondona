@@ -1,18 +1,18 @@
 // Html historias 
 
-%cajas{
-display: grid;
-align-items: center; 
-justify-items: center;
-margin: 0.5rem;
+%cajas {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 0.5rem;
 }
 
-%h1-cajas{
-font-size: 2rem;
-color: black;    
+%h1-cajas {
+    font-size: 2rem;
+    color: black;
 }
 
 %h2-cajas {
-font-size: 1,5rem;
-color: $color-secundario;
+    font-size: 1, 5rem;
+    color: $color-secundario;
 }
