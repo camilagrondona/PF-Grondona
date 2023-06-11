@@ -270,9 +270,9 @@
 /*Pantalla de celular*/
 .contenedor-historias {
   display: grid;
-  row-gap: 1rem;
   align-items: center;
   justify-items: center;
+  row-gap: 1rem;
 }
 .contenedor-historias ul {
   display: grid;

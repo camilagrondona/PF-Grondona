@@ -2,15 +2,14 @@
 
 @import "../utilidades/variables";
 @import "../utilidades/extend";
+@import "../utilidades/mixin";
 
 /* HTML HISTORIAS */
 /*Pantalla de celular*/
 
 .contenedor-historias {
-    display: grid;
+    @include grid;
     row-gap: 1rem;
-    align-items: center;
-    justify-items: center;
 
     .caja-1 {
         @extend %cajas;
