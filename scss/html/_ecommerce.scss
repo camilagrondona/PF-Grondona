@@ -6,13 +6,16 @@
     align-items: center;
     justify-items: center;
     gap: 2rem;
+    margin: 1rem;
 }
 
 /* HTML E-commerce */
 /*Tablet*/
 
 @media screen and (min-width:600px) {
-    
+    .contenedor-ecommerce {
+        margin: 1.2rem;
+    }
 }
 
 /* HTML E-commerce */
