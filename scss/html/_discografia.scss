@@ -1,14 +1,13 @@
 // Import - archivos secundarios SASS
 
 @import "../utilidades/variables";
+@import "../utilidades/mixin";
 
 /*HTML discografía */
 /*Pantalla de celular*/
 
 .contenedor-discografia {
-    display: grid;
-    align-items: center;
-    justify-items: center;
+    @include grid;
     row-gap: 0.5rem;
 
     ul {
