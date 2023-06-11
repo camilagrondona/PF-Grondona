@@ -108,6 +108,11 @@
 
 /* HTML CONTACTO */
 /*Tablet*/
+@media screen and (min-width: 600px) {
+  .contenedor-contacto {
+    height: 51.2vh;
+  }
+}
 /* HTML CONTACTO */
 /*Desktop*/
 @media screen and (min-width: 1024px) {
