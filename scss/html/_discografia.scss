@@ -63,7 +63,13 @@
 /* Tablet*/
 
 @media screen and (min-width: 600px) {
-    
+
+    .contenedor-discografia {
+        .presentacion-discografia {
+            font-size: 1.3rem;
+            margin: 1rem;
+        }
+    }
 }
 
 /*HTML discografía */
@@ -73,7 +79,6 @@
 
 
     .contenedor-discografia {
-
         .presentacion-discografia {
             font-size: 1.5rem;
         }

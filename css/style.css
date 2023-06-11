@@ -156,6 +156,12 @@
 
 /*HTML discografía */
 /* Tablet*/
+@media screen and (min-width: 600px) {
+  .contenedor-discografia .presentacion-discografia {
+    font-size: 1.3rem;
+    margin: 1rem;
+  }
+}
 /*HTML discografía */
 /* Desktop*/
 @media screen and (min-width: 1024px) {
@@ -389,6 +395,10 @@
   font-size: 0.9rem;
   color: black;
   font-style: italic;
+}
+.contenedor-streams iframe {
+  height: 90%;
+  width: 90%;
 }
 
 /* HTML STREAMS */
