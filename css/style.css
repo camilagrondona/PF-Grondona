@@ -100,7 +100,7 @@
   flex-direction: column;
   align-items: start;
   margin: 0.5rem;
-  height: 51.2vh;
+  height: 60.5vh;
 }
 .contenedor-contacto h1 {
   color: rgb(100, 28, 52);
@@ -110,7 +110,7 @@
 /*Tablet*/
 @media screen and (min-width: 600px) {
   .contenedor-contacto {
-    height: 51.2vh;
+    height: 60vh;
   }
 }
 /* HTML CONTACTO */
