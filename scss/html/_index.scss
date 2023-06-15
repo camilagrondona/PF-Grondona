@@ -62,7 +62,7 @@
             }
         }
         h3 {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
         }
     }
 }
@@ -73,21 +73,24 @@
 @media screen and (min-width:1024px) {
 
     .contenedor-index {
+        h1 {
+            font-size:2.2rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+        }
         div img {
             width: $med-principal;
             height: $med-principal;
             object-fit: cover;
         }
-
         p {
             font-size: 1.5rem;
             font-weight: normal;
         }
-
         div iframe {
             width: 560px;
             height: 315px;
         }
-
     }
 }

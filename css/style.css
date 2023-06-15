@@ -75,6 +75,9 @@
 /* HTML COMPRAR */
 /*Desktop*/
 @media screen and (min-width: 1024px) {
+  .contenedor-comprar h1 {
+    font-size: 2.2rem;
+  }
   .contenedor-comprar .comprar {
     font-size: 1.4rem;
   }
@@ -392,12 +395,18 @@
     height: 315px;
   }
   .contenedor-index h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 }
 /*HTML INDEX*/
 /* Desktop */
 @media screen and (min-width: 1024px) {
+  .contenedor-index h1 {
+    font-size: 2.2rem;
+  }
+  .contenedor-index h2 {
+    font-size: 1.8rem;
+  }
   .contenedor-index div img {
     width: 100%;
     height: 100%;
@@ -425,7 +434,7 @@
 .contenedor-streams h1 {
   color: rgb(100, 28, 52);
 }
-.contenedor-streams p.presentacion {
+.contenedor-streams h2 {
   font-size: 0.9rem;
   color: black;
   font-style: italic;
@@ -438,7 +447,7 @@
 /* HTML STREAMS */
 /* Tablets */
 @media screen and (min-width: 600px) {
-  .contenedor-streams p.presentacion {
+  .contenedor-streams h2 {
     font-size: 1.2rem;
   }
   .contenedor-streams iframe {
@@ -449,8 +458,11 @@
 /* HTML STREAMS */
 /* Desktop */
 @media screen and (min-width: 1024px) {
-  .contenedor-streams p.presentacion {
-    font-size: 1.5rem;
+  .contenedor-streams h1 {
+    font-size: 2.2rem;
+  }
+  .contenedor-streams h2 {
+    font-size: 1.6rem;
   }
   .contenedor-streams iframe {
     height: 60vh;
