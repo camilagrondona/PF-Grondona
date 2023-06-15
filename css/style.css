@@ -142,14 +142,14 @@
   text-decoration: none;
   font-size: 1.2rem;
 }
+.contenedor-discografia ul li.link-a-historias {
+  font-size: 1rem;
+  color: rgb(100, 28, 52);
+  text-align: center;
+}
 .contenedor-discografia .presentacion-discografia {
   font-size: 1.2rem;
   color: rgba(245, 245, 220, 0.744);
-  text-align: center;
-}
-.contenedor-discografia .link-a-historias {
-  font-size: 1rem;
-  color: rgb(100, 28, 52);
   text-align: center;
 }
 .contenedor-discografia h1 {
