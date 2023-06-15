@@ -19,7 +19,7 @@
     .comprar {
         font-size: 1.1rem;
         text-align: center;
-        color: black;
+        color: $color-quinario;
         width: $med-principal;
     }
 
@@ -35,11 +35,11 @@
         list-style: none;
         text-decoration: none;
         font-size: 1.2rem;
-        color: black;
+        color:$color-quinario;
     }
 
     .descripciones {
-        color: rgb(223, 223, 220);
+        color: $color-setario;
         font-size: 1rem;
         margin: 1rem;
         text-align: center;
