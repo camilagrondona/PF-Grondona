@@ -9,7 +9,6 @@
 .contenedor-discografia {
     @include grid;
     row-gap: 0.5rem;
-
     ul {
         display: flex;
         flex-direction: column;
@@ -18,7 +17,7 @@
         li {
             list-style: none;
             a {
-                color: black;
+                color: rgba(245, 245, 245, 0.594);
                 text-decoration: none;
                 font-size: 1.2rem;
             }
@@ -29,30 +28,20 @@
             text-align: center;
         }
     }
-
-    .presentacion-discografia {
-        font-size: 1.2rem;
-        color: rgba(245, 245, 220, 0.744);
-        text-align: center;
-    }
-
     h1 {
         color: $color-secundario;
         font-size: 1.8rem;
     }
-
     h2 {
         font-size: 1.2rem;
         color: black;
     }
-
     h3 {
-        height: $med-principal;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        text-align: center;
         color: rgb(50, 50, 50);
         font-style: oblique;
     }
-
 }
 
 /*HTML discografía */
@@ -61,9 +50,14 @@
 @media screen and (min-width: 600px) {
 
     .contenedor-discografia {
-        .presentacion-discografia {
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.6rem;
+        }
+        h3 {
             font-size: 1.3rem;
-            margin: 1rem;
         }
     }
 }
@@ -73,31 +67,28 @@
 
 @media screen and (min-width:1024px) {
 
-
     .contenedor-discografia {
-        .presentacion-discografia {
-            font-size: 1.5rem;
-        }
-
-        h1 {
-            font-size: 2rem;
-        }
-
-        h2 {
-            font-size: 1.5rem;
-        }
-
-        h3 {
-            font-size: 1.8rem;
-        }
-
-        .link-a-historias {
-            font-size: 1.5rem;
-
-            .link {
+            h1 {
+                font-size: 2.2rem;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+            h3 {
                 font-size: 1.5rem;
             }
+            ul {
+                li {
+                    a {
+                        font-size: 1.5rem;
+                    }
+                }
+                li.link-a-historias {
+                    font-size: 1.5rem;
+                            a.link {
+                                font-size: 1.5rem;
+                            }
+                }
+            }
         }
-
     }
-}

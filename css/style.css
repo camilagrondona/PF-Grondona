@@ -138,18 +138,13 @@
   list-style: none;
 }
 .contenedor-discografia ul li a {
-  color: black;
+  color: rgba(245, 245, 245, 0.594);
   text-decoration: none;
   font-size: 1.2rem;
 }
 .contenedor-discografia ul li.link-a-historias {
   font-size: 1rem;
   color: rgb(100, 28, 52);
-  text-align: center;
-}
-.contenedor-discografia .presentacion-discografia {
-  font-size: 1.2rem;
-  color: rgba(245, 245, 220, 0.744);
   text-align: center;
 }
 .contenedor-discografia h1 {
@@ -161,8 +156,8 @@
   color: black;
 }
 .contenedor-discografia h3 {
-  height: 100%;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
   color: rgb(50, 50, 50);
   font-style: oblique;
 }
@@ -170,30 +165,35 @@
 /*HTML discografía */
 /* Tablet*/
 @media screen and (min-width: 600px) {
-  .contenedor-discografia .presentacion-discografia {
+  .contenedor-discografia h1 {
+    font-size: 2rem;
+  }
+  .contenedor-discografia h2 {
+    font-size: 1.6rem;
+  }
+  .contenedor-discografia h3 {
     font-size: 1.3rem;
-    margin: 1rem;
   }
 }
 /*HTML discografía */
 /* Desktop*/
 @media screen and (min-width: 1024px) {
-  .contenedor-discografia .presentacion-discografia {
-    font-size: 1.5rem;
-  }
   .contenedor-discografia h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   .contenedor-discografia h2 {
-    font-size: 1.5rem;
-  }
-  .contenedor-discografia h3 {
     font-size: 1.8rem;
   }
-  .contenedor-discografia .link-a-historias {
+  .contenedor-discografia h3 {
     font-size: 1.5rem;
   }
-  .contenedor-discografia .link-a-historias .link {
+  .contenedor-discografia ul li a {
+    font-size: 1.5rem;
+  }
+  .contenedor-discografia ul li.link-a-historias {
+    font-size: 1.5rem;
+  }
+  .contenedor-discografia ul li.link-a-historias a.link {
     font-size: 1.5rem;
   }
 }
