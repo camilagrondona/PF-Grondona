@@ -425,7 +425,7 @@
 .contenedor-streams h1 {
   color: rgb(100, 28, 52);
 }
-.contenedor-streams .presentacion {
+.contenedor-streams p.presentacion {
   font-size: 0.9rem;
   color: black;
   font-style: italic;
@@ -438,7 +438,7 @@
 /* HTML STREAMS */
 /* Tablets */
 @media screen and (min-width: 600px) {
-  .contenedor-streams .presentacion {
+  .contenedor-streams p.presentacion {
     font-size: 1.2rem;
   }
   .contenedor-streams iframe {
@@ -449,7 +449,7 @@
 /* HTML STREAMS */
 /* Desktop */
 @media screen and (min-width: 1024px) {
-  .contenedor-streams .presentacion {
+  .contenedor-streams p.presentacion {
     font-size: 1.5rem;
   }
   .contenedor-streams iframe {

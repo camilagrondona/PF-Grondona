@@ -17,7 +17,7 @@
         color: $color-secundario;
     }
 
-    .presentacion {
+    p.presentacion {
         font-size: 0.9rem;
         color: black;
         font-style: italic;
@@ -35,7 +35,7 @@
 
 @media screen and (min-width:600px) {
     .contenedor-streams {
-        .presentacion {
+        p.presentacion {
             font-size: 1.2rem;
         }
         iframe {
@@ -51,7 +51,7 @@
 @media screen and (min-width:1024px) {
 
     .contenedor-streams {
-        .presentacion {
+        p.presentacion {
             font-size: 1.5rem;
         }
 
