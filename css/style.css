@@ -158,7 +158,7 @@
   font-size: 1.2rem;
   color: black;
 }
-.contenedor-discografia h3 {
+.contenedor-discografia p {
   font-size: 1.2rem;
   text-align: center;
   color: rgb(50, 50, 50);
@@ -174,7 +174,7 @@
   .contenedor-discografia h2 {
     font-size: 1.6rem;
   }
-  .contenedor-discografia h3 {
+  .contenedor-discografia p {
     font-size: 1.3rem;
   }
 }
@@ -187,7 +187,7 @@
   .contenedor-discografia h2 {
     font-size: 1.8rem;
   }
-  .contenedor-discografia h3 {
+  .contenedor-discografia p {
     font-size: 1.5rem;
   }
   .contenedor-discografia ul li a {
