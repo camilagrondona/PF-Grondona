@@ -19,19 +19,19 @@
         font-size: 1.8rem;
     }
 
-    p.introduccion-index {
+    .introduccion-index {
         font-size: 1.2rem;
         color: $color-quinario;
     }
 
-    p.nuevo-album {
+    .nuevo-album {
         height: $med-principal;
         font-size: 1.1rem;
         color:$color-cuaternario;
         font-style: oblique;
     }
 
-    p.sorteos-index {
+    .sorteos-index {
         font-size: 1rem;
         color: $color-secundario;
         font-weight: bold;
@@ -61,11 +61,11 @@
                 height: 315px;
             }
         }
-        p.introduccion-index {
+        .introduccion-index {
             margin:0.5rem;
             font-size:1.3rem;
         }
-        p.nuevo-album {
+        .nuevo-album {
             font-size: 1.4rem;
         }
     }
@@ -80,7 +80,7 @@
         h1 {
             font-size:2.2rem;
         }
-        p.introduccion-index {
+        .introduccion-index {
             font-size: 1.8rem;
         }
         div img {
@@ -88,7 +88,7 @@
             height: $med-principal;
             object-fit: cover;
         }
-        p.sorteos-index {
+        .sorteos-index {
             font-size: 1.5rem;
             font-weight: normal;
         }
