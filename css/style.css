@@ -363,17 +363,17 @@
   color: rgb(100, 28, 52);
   font-size: 1.8rem;
 }
-.contenedor-index h2 {
+.contenedor-index p.introduccion-index {
   font-size: 1.2rem;
   color: black;
 }
-.contenedor-index h3 {
+.contenedor-index p.nuevo-album {
   height: 100%;
   font-size: 1.1rem;
   color: rgb(50, 50, 50);
   font-style: oblique;
 }
-.contenedor-index p {
+.contenedor-index p.sorteos-index {
   font-size: 1rem;
   color: rgb(100, 28, 52);
   font-weight: bold;
@@ -394,7 +394,11 @@
     width: 500px;
     height: 315px;
   }
-  .contenedor-index h3 {
+  .contenedor-index p.introduccion-index {
+    margin: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .contenedor-index p.nuevo-album {
     font-size: 1.4rem;
   }
 }
@@ -404,7 +408,7 @@
   .contenedor-index h1 {
     font-size: 2.2rem;
   }
-  .contenedor-index h2 {
+  .contenedor-index p.introduccion-index {
     font-size: 1.8rem;
   }
   .contenedor-index div img {
@@ -412,7 +416,7 @@
     height: 100%;
     object-fit: cover;
   }
-  .contenedor-index p {
+  .contenedor-index p.sorteos-index {
     font-size: 1.5rem;
     font-weight: normal;
   }
