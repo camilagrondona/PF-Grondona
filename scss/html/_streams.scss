@@ -15,7 +15,7 @@
     h1 {
         color: $color-secundario;
     }
-    h2 {
+    p {
         font-size: 0.9rem;
         color: $color-quinario;
         font-style: italic;
@@ -32,7 +32,7 @@
 
 @media screen and (min-width:600px) {
     .contenedor-streams {
-        h2 {
+        p {
             font-size: 1.2rem;
         }
         iframe {
@@ -51,7 +51,7 @@
         h1 {
             font-size: 2.2rem;
         }
-        h2 {
+        p {
             font-size: 1.6rem;
         }
         iframe {
